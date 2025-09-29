@@ -56,7 +56,7 @@ The dataset contains:
 
 ## Report
 The full written analysis is available in:  
-- [Project Report (PDF)](report/Data_Science_Report.pdf)  
+- [Project Report (PDF)](Data_Science_Report.pdf)  
 
 ---
 
