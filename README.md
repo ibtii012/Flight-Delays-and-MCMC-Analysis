@@ -4,7 +4,7 @@
 This project is divided into two main parts:
 
 1. **Random Walk Metropolis Algorithm (MCMC):**  
-   Implemented a Markov Chain Monte Carlo method to generate samples from a Laplace distribution and analyzed convergence using multiple chains and R-hat diagnostics.  
+   Applied a Markov Chain Monte Carlo method to generate samples from a Laplace distribution and analyzed convergence using multiple chains and R-hat diagnostics.  
 
 2. **US Flight Data Analysis (1999–2008):**  
    Analyzed historical airline flight data to explore delays, cancellations, and diversions. Investigated trends over time, the effect of aircraft age, and applied logistic regression to identify key features influencing flight diversions.
@@ -23,13 +23,19 @@ The dataset contains:
 
 ## Project Highlights
 - **Part 1: Random Walk Metropolis Sampling**  
-  - Implemented the algorithm to sample from a Laplace distribution.  
-  - Generated chains and tested convergence using R-hat values.  
+  - Implemented algorithm to sample from a Laplace distribution.  
+  - Generated multiple chains and tested convergence with R-hat values.  
 
 - **Part 2: Flight Data Analysis**  
   - Identified best days and times to minimize delays across years.  
   - Analyzed how aircraft age impacts delay probability.  
   - Applied logistic regression to study features influencing flight diversions.  
+
+---
+
+## Notebooks
+- [Part 1: Random Walk Metropolis Sampling](notebooks/Part1_RandomWalkMetropolis.ipynb)  
+- [Part 2: Flight Data Analysis](notebooks/Part2_FlightDataAnalysis.ipynb)  
 
 ---
 
@@ -45,6 +51,12 @@ The dataset contains:
 - Extend analysis to post-2008 flight data for updated insights.  
 - Incorporate additional predictors such as weather and airport congestion.  
 - Apply advanced classification methods (Random Forest, Gradient Boosting) for diversion prediction.  
+
+---
+
+## Report
+The full written analysis is available in:  
+- [Project Report (PDF)](report/Data_Science_Report.pdf)  
 
 ---
 
